@@ -9,6 +9,7 @@ public class Bluemoon {
 
 	}
 	
+	
 	public static ArrayList<Integer> getPrime(int n){
 		
 		ArrayList<Integer> primeArr = new ArrayList<Integer>();
