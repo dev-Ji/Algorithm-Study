@@ -28,6 +28,7 @@ import java.util.Scanner;
 		5 5
 		예제 출력 3 
 		==
+		
  */
 public class Q_1330 {
 
