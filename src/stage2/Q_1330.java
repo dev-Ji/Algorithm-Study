@@ -29,7 +29,7 @@ import java.util.Scanner;
 		예제 출력 3 
 		==
 		
-		
+		commit이 제대로 되나요
  */
 public class Q_1330 {
 
