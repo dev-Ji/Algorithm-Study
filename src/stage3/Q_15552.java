@@ -66,7 +66,6 @@ public class Q_15552 {
 		for (int i = 0; i < sum.size(); i+=2) {
 			int a = Integer.parseInt(sum.get(i))+Integer.parseInt(sum.get(i+1));
 			bw.append(Integer.toString(a)+"\n");
-			
 		}
 		br.close();
 		bw.close();
