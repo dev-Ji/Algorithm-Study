@@ -35,14 +35,18 @@ public class Q_10952 {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> sum = new ArrayList<Integer>();
         boolean chk = true;
-        // if(a != 0 && b != 0){
-        //     chk = true;
-        // }
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        if(a != 0 && b != 0){
-             sum.add(a+b);
+        while(chk){
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            if(a != 0 && b != 0){
+                sum.add(a+b);
+           }else if(a == 0 && b == 0){
+               chk = false;
+           }
         }
-        
+
+        for (int i = 0; i < sum.size(); i++) {
+            System.out.println(sum.get(i));
+        }
     }
 }
