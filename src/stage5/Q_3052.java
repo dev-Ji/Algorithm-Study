@@ -1,5 +1,6 @@
 package stage5;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
@@ -66,9 +67,7 @@ public class Q_3052 {
         for (int i = 0; i < 10; i++) {
             num2.add(sc.nextInt()%42);
         }
-
         System.out.println(num2.size());
-        
     }
     
 }
