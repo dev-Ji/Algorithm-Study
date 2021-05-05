@@ -62,7 +62,7 @@ public class Q_8959 {
                 }else{
                     jum = 0;
                     //System.out.println("X 일떄 else     jum : " + jum + "    score : " + score);
-                }
+                } 
             }
 
             System.out.println(score);
