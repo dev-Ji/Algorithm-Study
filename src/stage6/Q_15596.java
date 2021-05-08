@@ -27,7 +27,7 @@ class Test {
         for (int i = 0; i < a.length; i++) {
             ans += a[i];
         }
-        return ans;
+        return ans;    
     }
 }
 
